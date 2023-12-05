@@ -28,5 +28,42 @@
     line-height: 80px;
     vertical-align: middle;
     padding-left: 5px;
-    font-weight: ;
+    font-weight:800; 
+    font-size: 50px;  
 }
+
+.containerSection{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin:5% auto;
+    border-radius: 5px;
+}
+
+.containerSection{
+    background-color: white;
+    width: 70%;
+    margin: 5% auto;
+    border-radius: 5px;
+}
+
+.toolsection{
+    border-bottom: solid 2px rgba(228, 228, 228, 0.74);
+    padding: 10px 40px;
+}
+
+button{
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+#btntask{
+    background-color: #47adf1;
+    color: white;
+}
+
+#btnsection{
+    background-color: white;
+    color: rgb(201, 201, 201);
+}
+
