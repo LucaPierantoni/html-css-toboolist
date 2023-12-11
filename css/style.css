@@ -1,69 +1,183 @@
-*{
+/* common UI elements */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.containerApp{
+body {
+    background-color: #EEEEEE;
     font-family: sans-serif;
-    background-color: rgba(228, 228, 228, 0.74);
-    width: 60%;
-    margin: auto;
-    padding-bottom: 50px;
-
 }
 
-.containerHeader{
-    display: flex;
+/* header elements */
+header {
+    background-color: white;
+    height: 70px;
+    padding: 10px;
+    margin-bottom: 35px;
+}
+
+header img {
     vertical-align: middle;
-    padding-left: 30px;
-    padding-top: 10px;
-    background-color: rgb(255, 255, 255);
-    height: 80px;
-    margin: auto;
+    height: 100%;
 }
 
-.titleHeader{
+header h1 {
     display: inline-block;
-    line-height: 80px;
+    font-size: 39px;
     vertical-align: middle;
-    padding-left: 5px;
-    font-weight:800; 
-    font-size: 50px;  
+    line-height: 50px;
 }
 
-.containerSection{
-    background-color: rgb(255, 255, 255);
-    width: 70%;
-    margin:5% auto;
-    border-radius: 5px;
+/* main elements */
+
+.container {
+    width: 80%;
+    margin: auto;
 }
 
-.containerSection{
+.container .top {
     background-color: white;
-    width: 70%;
-    margin: 5% auto;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 0 0 ;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.container .tasks {
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.button-filled {
+    padding: 5px 10px;
+    border: none;
     border-radius: 5px;
-}
-
-.toolsection{
-    border-bottom: solid 2px rgba(228, 228, 228, 0.74);
-    padding: 10px 40px;
-}
-
-button{
-    border: solid 1px;
-    border-radius: 5px;
-    padding: 1%;
-}
-
-#btntask{
-    background-color: #47adf1;
+    background-color: deepskyblue;
     color: white;
+    font-size: 600;
+    border: solid 1px deepskyblue;
+    font-weight: 700;
 }
 
-#btnsection{
+.button-outline {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
     background-color: white;
-    color: rgb(201, 201, 201);
+    border: solid 1px gray;
+    font-weight: 700;
 }
 
+.container .tasks ul {
+    list-style: none;
+}
+
+.tasks > ul > li {
+    margin: 20px 0;
+}
+
+.check {
+    border: solid 2px green;
+    color: green;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 7px;
+}
+
+.cross {
+    border: solid 2px red;
+    color: red;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 7px;
+}
+
+.editorial button {
+    background-color: deepskyblue;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+}
+
+.q1 button {
+    background-color: blueviolet;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+}
+
+.recruiting button{
+    background-color: green;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+}
+
+.mobile button {
+    background-color: orange;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+}
+
+.website button {
+    background-color: deeppink;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+}
+
+.sales button {
+    background-color: olivedrab;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+}
+
+.text  {
+    font-weight: 500;
+}
+
+h3 {
+    padding-bottom: 7px;
+}
+
+li {
+    padding-bottom: 7px;
+}
